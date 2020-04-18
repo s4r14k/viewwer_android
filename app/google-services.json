@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "493732964858",
+    "firebase_url": "https://viewwer-b3be3.firebaseio.com",
+    "project_id": "viewwer-b3be3",
+    "storage_bucket": "viewwer-b3be3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493732964858:android:d727259a7bbfd01b5edc43",
+        "android_client_info": {
+          "package_name": "com.priscilla.viewwer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493732964858-423vrmjflj05fi4er84ructboqi5e1cj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.priscilla.viewwer",
+            "certificate_hash": "c8cf37896783fcc51b6f54078d439ecec3a3090c"
+          }
+        },
+        {
+          "client_id": "493732964858-01d1tvbur75f628qf5qc9fcg4blijohf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD__OBFclIxAs99Hhk99vQrfxNTquixyQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493732964858-01d1tvbur75f628qf5qc9fcg4blijohf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

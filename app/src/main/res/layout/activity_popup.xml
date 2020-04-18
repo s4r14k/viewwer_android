@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="1dp"
+    android:background="@color/transparent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:text="@string/tutorial_title"
+        android:textAlignment="center"
+        android:textColor="@color/color_gray_dark"/>
+
+    <TextView
+        android:id="@+id/tuto_prise_de_vue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/radius_gray_stroke"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:text="@string/tutorial_shooting"
+        android:textColor="@color/color_cyan"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tuto_hotspots"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/radius_gray_stroke"
+        android:gravity="center"
+        android:paddingHorizontal="30dp"
+        android:text="@string/tutorial_hotspots"
+        android:textColor="@color/color_cyan"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tuto_pratique"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/radius_gray_stroke"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:text="@string/tutorial_best_practice"
+        android:textColor="@color/color_cyan"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tutp_annuler"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="1px"
+        android:background="@drawable/radius_gray_stroke"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:text="@string/annuler"
+        android:textColor="@color/color_cyan"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+</LinearLayout>

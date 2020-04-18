@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Viewwer Mobile</string>
+
+
+    <!-- Internet Error-->
+    <string name="internet_connexion_error_title">Connexion internet</string>
+    <string name="internet_connexion_error_message">Votre appareil ne semble pas être connecté à internet.</string>
+
+    <!-- Default -->
+    <string name="default_error_title">Erreur</string>
+    <string name="default_error_message">Une erreur est survenue, veuillez réessayer plus tard.</string>
+
+    <!-- screen: LOGIN -->
+    <string name="activity_user_login_title_toolBar">Information Générale Utilisateur</string>
+    <string name="activity_user_login_title_layout"><u>Authentification</u></string>
+    <string name="activity_user_login_editText_hint_pseudo">EMAIL</string>
+    <string name="activity_user_login_editText_hint_password">MOT DE PASSE</string>
+    <string name="activity_user_login_button_text_connecter">Se connecter</string>
+    <string name="activity_user_login_button_text_register">Creer un compte</string>
+    <string name="activity_user_login_button_text_facebook">Se connecter avec Facebook</string>
+    <string name="activity_user_login_button_text_google">Se connecter avec Google</string>
+    <string name="activity_user_login_error_message_pseudo">Veuillez insérer votre login.</string>
+    <string name="activity_user_login_error_message_password">Veuillez entrer votre mot de passe.</string>
+    <string name="activity_user_login_error_valid_pseudo_password">Login et/ou mot de passe incorrect(s).</string>
+    <string name="activity_user_error_title">Erreur d\'authentification</string>
+    <string name="activity_user_error_input_number">Veuillez saisir des nombres uniquement</string>
+    <string name="activity_user_error_input_length">Trop courte</string>
+
+    <!-- screen: REGISTER -->
+    <!-- screen: REGISTER -->
+    <string name="activity_user_error_input_invalid">Veuillez saisissez votre adresse email</string>
+    <string name="activity_user_create_account">compte creer avec succes</string>
+    <string name="activity_create_account_title">Creer un compte</string>
+    <string name="particulier">Particulier</string>
+    <string name="professionnel">Professionel</string>
+    <string name="prof_societe">SOCIETE</string>
+    <string name="prof_activites">ACTIVITE</string>
+    <string name="user_name">PRENOM</string>
+    <string name="user_last_name">NOM</string>
+    <string name="user_mail">ADRESSE EMAIL</string>
+    <string name="user_phone">NUMERO DE TELEPHONE(facultatif)</string>
+    <string name="mot_de_passe">MOT DE PASSE</string>
+    <string name="repeter_mot_de_passe">REPETER MOT DE PASSE</string>
+    <string name="code_partner">CODE PARTENAIRE(facultatif)</string>
+    <string name="mdpPartenaire">mdpPartenaire</string>
+
+
+    -->
+    -->
+
+    <!-- screen: NAVIGATION BAR BOTTOM -->
+    <string name="activity_bottom_nav_bar_text_search">Rechercher</string>
+    <string name="activity_bottom_nav_bar_text_favorites">Favoris</string>
+    <string name="activity_bottom_nav_bar_text_create">Creer</string>
+    <string name="activity_bottom_nav_bar_text_posts">Messages</string>
+    <string name="activity_bottom_nav_bar_text_profile">Profil</string>
+
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_search">Toutes les annonces</string>
+    <string name="title_favorites">Favoris</string>
+    <string name="title_create">Creer</string>
+    <string name="title_posts">Messages</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_edit_profile">Profil</string>
+
+
+    <!-- screen: ONGLET RECHERCHER -->
+
+    <string name="activity_list_visit_button_text_filter">Filtrer</string>
+
+    <string name="activity_list_visit_button_text__delete_filter">Effacer le filtre</string>
+
+    <!-- screen: ONGLET BOUTON RECHERCHER -->
+    <string name="activity_filtre_annonce_title_toolBar">Filtrer les annonces</string>
+    <string name="activity_best_practices_title_toolBar">Bonnes pratiques</string>
+
+
+    <string name="activity_filtre_annonce_text_localisation">Localisation</string>
+    <string name="activity_filtre_annonce_hint_text_ville">Ville</string>
+    <string name="activity_filtre_annonce_text_budget">Budget</string>
+    <string name="activity_filtre_annonce_text_surface">Surface</string>
+    <string name="activity_filtre_annonce_text_piece">Pièce</string>
+    <string name="activity_filtre_annonce_text_type_logement">Type de logement</string>
+    <string name="activity_filtre_annonce_error_message_format_double">Format incorrect</string>
+
+
+    <string name="activity_filtre_annonce_text_search">Lancer la recherche</string>
+
+    -->
+    <!-- screen:  ONGLET FAVORIS-->
+
+    -->
+
+    <!-- screen:  ONGLET PROFIL-->
+    <string name="activity_profil_text_edit_share">Partager</string>
+    <string name="activity_profil_text_edit_profil">Modifier le profil</string>
+    <string name="activity_edtit_profil_text_firstName">PRÉNOM</string>
+    <string name="activity_edit_profil_text_lastName">NOM</string>
+    <string name="activity_edit_profil_text_phone">NUMÉRO DE TÉLÉPHONE</string>
+    <string name="activity_edit_profil_button_ChangePassword">Changer le mot de passe</string>
+    <string name="activity_edit_profil_button_MajProfil">Mettre à jour le Profil</string>
+    <string name="activity_changed_passowrd_old_password">ANCIEN MOT DE PASSE</string>
+    <string name="activity_changed_passowrd_new_password">NOUVEAU MOT DE PASSE</string>
+    <string name="activity_changed_passowrd_confirmed_password">CONFIRMER LE MOT DE PASSE</string>
+    <string name="activity_changed_passowrd_button_maj_password">Changer le mot de passe</string>
+    <string name="activity_Profil_Moderation_status_approved">Approuvé</string>
+    <string name="activity_Profil_Moderation_status_rejected">Rejeté</string>
+    <string name="activity_Profil_Moderation_status_pending">En attente</string>
+    <string name="activity_Profil_delete_tour">Voulez-vous supprimer cette visite?</string>
+    <string name="activity_Profil_delete_tour_yes">Oui</string>
+    <string name="activity_Profil_delete_tour_no">Non</string>
+
+
+    -->
+    <!-- screen:  CHANGE PASSWORD-->
+    <string name="activity_change_password_newPass_confirmPass_notEqual">Le Nouveau et la Confirmation du mot de passe ne sont pas identique</string>
+    <string name="activity_change_password_old_password_error_serveur">Ancien mot de passe est incorrect</string>
+    <string name="activity_change_password_field_must_be_filled">Veuillez remplir le champ</string>
+    <string name="activity_change_password_Title_error">Password</string>
+    -->
+
+    <!-- screen:  EDIT TOUR-->
+    <string name="activity_edit_tour_hint_address">Adresse</string>
+    <string name="activity_edit_tour_hint_for_sale">A vendre</string>
+    <string name="activity_edit_tour_hint_for_rent">A louer</string>
+    <string name="activity_edit_tour_hint_apartment">Appartement</string>
+    <string name="activity_edit_tour_hint_house">Maison</string>
+    <string name="activity_edit_tour_hint_Area">Superficie</string>
+    <string name="activity_edit_tour_hint_description">Déscription</string>
+    <string name="activity_edit_tour_hint_price">Prix</string>
+    <string name="activity_edit_tour_hint_maj">Mettre à jour</string>
+
+    -->
+    -->
+
+
+    <string name="avatar_device_unsupported_error_message">Désolé,votre appareil ne supporte pas l\'appareil photo</string>
+    <string name="avatar_error_title">Erreur</string>
+    <string name="avatar_failed_error_message">Desole,Erreur appareil photo</string>
+    <string name="avatar_take_picture_title">Prendre une photo</string>
+    <string name="avatar_take_picture_message">Veuillez choisir le mode de capture</string>
+    <string name="avatar_picture_type_file_button">Gallerie photo</string>
+    <string name="avatar_picture_type_camera_button">Appareil photo</string>
+
+    <!-- screen: HOME -->
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <string name="activity_title_about_us">A propos de nous</string>
+    <string name="logout">Voulez-vous vous déconnecter</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_hint_text_apartement">Appartement</string>
+    <string name="activity_hint_text_house">Maison</string>
+    <string name="activity_hint_text_rent">A Louer</string>
+    <string name="activity_hint_text_sold">A vendre</string>
+    <string name="activity_hint_text_all">Tout</string>
+    <string name="activity_hint_text_min">Min</string>
+    <string name="activity_hint_text_max">Max</string>
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">205168277193357</string>
+    <string name="fb_login_protocol_scheme">fb205168277193357</string>
+    <!--  -->
+
+    <!-- Video tutoriel -->
+    <string name="tutorial_title">Tutoriels</string>
+    <string name="tutorial_shooting">Tutoriel Prise de Vue</string>
+    <string name="tutorial_hotspots">Tutoriel Hotspots</string>
+    <string name="tutorial_best_practice">Bonne Pratique</string>
+    <!--  -->
+
+    <!-- Video tutoriel -->
+    <string name="Appartement_for_rent">Appartement à louer</string>
+    <string name="Appartement_for_sale">Appartement à vendre</string>
+    <!--  -->
+    <string name="server_client_id">1014243976091-vb5bsvrm946jjh5pgklbgforrtuh3odi.apps.googleusercontent.com</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="error_not_found_search">Modifier vos critères de recherche</string>
+    <string name="title_not_found_search">Aucune annonce trouvée</string>
+    <string name="title_activity_web_view_forget_password">WebViewForgetPassword</string>
+
+    <!-- modal -->
+    <string name="agenImmo">Agence Immobilier</string>
+    <string name="mandataire">Mandataire</string>
+    <string name="promoConstructeur">Promoteur/Constructeur</string>
+    <string name="syndicGestionnaire">Syndic et Gestionnaire</string>
+    <string name="marchandDeBien">Marchand de bien</string>
+    <string name="architecture">Architecte</string>
+    <string name="autre">Autre</string>
+    <string name="annuler">Annuler</string>
+    <string name="panorama_back">Retour</string>
+
+    <string name="instruction_hold_vertically">Tenez votre appareil verticallement</string>
+    <string name="begin_capture">Appuyer pour commencer</string>
+</resources>

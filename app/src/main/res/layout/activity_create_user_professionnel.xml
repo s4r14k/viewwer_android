@@ -1,0 +1,381 @@
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:id="@+id/activity_create_user_profesionnel"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    android:orientation="vertical"-->
+    <!--    android:visibility="visible">-->
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--        <FrameLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginLeft="20dp"-->
+    <!--            android:layout_marginRight="20dp">-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textCompanyName"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="20dp"-->
+    <!--                android:hint="@string/prof_societe"-->
+    <!--                android:inputType="text" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textActivity"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="60dp"-->
+    <!--                android:hint="@string/prof_activites"-->
+    <!--                android:inputType="text" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textFirstName"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="100dp"-->
+    <!--                android:hint="@string/user_name"-->
+    <!--                android:inputType="text" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textLastName"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="140dp"-->
+    <!--                android:hint="@string/user_last_name"-->
+    <!--                android:inputType="text" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textEmail"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="180dp"-->
+    <!--                android:hint="@string/user_mail"-->
+    <!--                android:inputType="text" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textPhone"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="220dp"-->
+    <!--                android:hint="@string/user_phone"-->
+    <!--                android:inputType="phone" />-->
+
+    <!--            <com.google.android.material.textfield.TextInputLayout-->
+    <!--                android:id="@+id/textInputPassword"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="260dp"-->
+    <!--                app:passwordToggleEnabled="true">-->
+
+    <!--                <com.google.android.material.textfield.TextInputEditText-->
+    <!--                    android:id="@+id/inputEditTextPassword"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:imeOptions="actionDone"-->
+    <!--                    android:inputType="textPassword" />-->
+    <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--            <com.google.android.material.textfield.TextInputLayout-->
+    <!--                android:id="@+id/textInputPasswordConfirmed"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="300dp"-->
+    <!--                app:passwordToggleEnabled="true">-->
+
+    <!--                <com.google.android.material.textfield.TextInputEditText-->
+    <!--                    android:id="@+id/inputEditTextPasswordConfirmed"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:inputType="textPassword"-->
+    <!--                    android:maxLines="1" />-->
+    <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textIsPro"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="340dp"-->
+    <!--                android:hint="ISPRO"-->
+    <!--                android:inputType="text" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/textPartenerCode"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="380dp"-->
+    <!--                android:hint="CODE PARTENAIRE(facultatif)"-->
+    <!--                android:inputType="text" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/creerCompte"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="440dp"-->
+    <!--                android:background="@drawable/corner_radius"-->
+    <!--                android:backgroundTint="@color/color_cyan"-->
+    <!--                android:text="CRÉER LE COMPTE"-->
+    <!--                android:textColor="@android:color/white" />-->
+    <!--        </FrameLayout>-->
+    <!--    </ScrollView>-->
+    <!--</RelativeLayout>-->
+
+
+    <!-- -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_user_profesionnel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textCompanyName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--           -->
+<!--                android:hint="@string/prof_societe"-->
+<!--                android:inputType="text" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textActivity"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="60dp"-->
+<!--                android:hint="@string/prof_activites"-->
+<!--                android:inputType="text" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textFirstName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:hint="@string/user_name"-->
+<!--                android:inputType="text" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textLastName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="140dp"-->
+<!--                android:hint="@string/user_last_name"-->
+<!--                android:inputType="text" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textEmail"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="180dp"-->
+<!--                android:hint="@string/user_mail"-->
+<!--                android:inputType="text" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textPhone"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="220dp"-->
+<!--                android:hint="@string/user_phone"-->
+<!--                android:inputType="phone" />-->
+
+<!--            <com.google.android.material.textfield.TextInputLayout-->
+<!--                android:id="@+id/textInputPassword"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="260dp"-->
+<!--                app:passwordToggleEnabled="true">-->
+
+<!--                <com.google.android.material.textfield.TextInputEditText-->
+<!--                    android:id="@+id/inputEditTextPassword"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:imeOptions="actionDone"-->
+<!--                    android:inputType="textPassword" />-->
+<!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--            <com.google.android.material.textfield.TextInputLayout-->
+<!--                android:id="@+id/textInputPasswordConfirmed"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="300dp"-->
+<!--                app:passwordToggleEnabled="true">-->
+
+<!--                <com.google.android.material.textfield.TextInputEditText-->
+<!--                    android:id="@+id/inputEditTextPasswordConfirmed"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:inputType="textPassword"-->
+<!--                    android:maxLines="1" />-->
+<!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textIsPro"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="340dp"-->
+<!--                android:hint="ISPRO"-->
+<!--                android:inputType="text" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textPartenerCode"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="380dp"-->
+<!--                android:hint="CODE PARTENAIRE(facultatif)"-->
+<!--                android:inputType="text" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/creerCompte"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="440dp"-->
+<!--                android:background="@drawable/corner_radius"-->
+<!--                android:backgroundTint="@color/color_cyan"-->
+<!--                android:text="CRÉER LE COMPTE"-->
+<!--                android:textColor="@android:color/white" />-->
+<!--        </FrameLayout>-->
+<!--    </ScrollView>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/call_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/activity_horizontal_margin">
+
+                <EditText
+                    android:id="@+id/textCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prof_societe"
+                    android:inputType="text"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/textActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prof_activites"
+                    android:inputType="text"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/textFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/user_name"
+                    android:inputType="text"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/textLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/user_last_name"
+                    android:inputType="text"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/textEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/user_mail"
+                    android:inputType="text"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/textPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/user_phone"
+                    android:inputType="phone"
+                    android:textSize="14dp" />
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputEditTextPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/mot_de_passe"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:textSize="14dp"
+                     />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputPasswordConfirmed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputEditTextPasswordConfirmed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/repeter_mot_de_passe"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textSize="14dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <EditText
+                    android:id="@+id/textPartenerCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/code_partner"
+                    android:inputType="text"
+                    android:textSize="14dp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/creerCompte"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rounded_cyan_button"
+                    android:text="@string/activity_create_account_title"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+

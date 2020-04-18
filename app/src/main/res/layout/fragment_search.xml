@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/search_fragment"
+    tools:context=".Fragment.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="?attr/actionBarSize">
+
+        <include
+            android:id="@+id/SearchToolbar"
+            layout="@layout/toolbar">
+        </include>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutContentFilterAndDeleteFilter"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_bottom"
+            android:orientation="horizontal"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                >
+
+                <Button
+                    android:id="@+id/btnFiltre"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/corner_radius"
+                    android:paddingEnd="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/activity_list_visit_button_text_filter"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textColor="@color/md_grey_600"
+                    app:strokeColor="@color/color_gray_dark"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutDeleteFilter"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:paddingStart="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:visibility="gone"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp">
+
+
+                <Button
+                    android:id="@+id/appCompatButtonDeleteFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/corner_radius"
+                    android:text="@string/activity_list_visit_button_text__delete_filter"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    app:strokeColor="@color/color_gray_dark" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:background="@drawable/border_bottom"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:paddingLeft="60dp"-->
+        <!--            android:paddingRight="60dp">-->
+
+        <!--            <Button-->
+        <!--                android:id="@+id/btnFiltre"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="30dp"-->
+        <!--                android:layout_gravity="center_horizontal"-->
+        <!--                android:layout_marginTop="4dp"-->
+        <!--                android:background="@drawable/border_visite"-->
+        <!--                android:text="@string/activity_list_visit_button_text_filter"-->
+        <!--                android:textSize="12dp" />-->
+        <!--&lt;!&ndash;            &ndash;&gt;-->
+        <!--&lt;!&ndash;            <Button&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:id="@+id/btnClearFiltre"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_height="30dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_gravity="center_horizontal"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_marginTop="4dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:background="@drawable/border_visite"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:text="@string/activity_list_visit_button_text_filter"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:textSize="12dp" />&ndash;&gt;-->
+        <!--        </LinearLayout>-->
+
+        <!--        <ListView-->
+        <!--            app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+        <!--            android:id="@+id/simpleListView"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent" />-->
+
+        <!--        <include layout="@layout/content_list_visits" />-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/recyclerView"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+</RelativeLayout>

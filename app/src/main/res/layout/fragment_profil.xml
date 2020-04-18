@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ProfilFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <include
+            android:id="@+id/ProfilToolbar"
+            layout="@layout/toolbar">
+        </include>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/border_bottom"
+            android:orientation="vertical"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ProfileName"
+                android:textSize="15dp"
+                android:textColor="@color/color_cyan"
+                android:layout_marginTop="15dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/activity_profil_text_edit_profil"
+                android:textSize="12dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_selector"
+                android:layout_marginTop="4dp"
+                android:id="@+id/editProfil"
+                />
+        </LinearLayout>
+        <!--        <ListView-->
+        <!--            android:id="@+id/profilVisiteListe"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"/>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/profilVisiteListeRecycler"
+            android:layout_marginBottom="?attr/actionBarSize"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+</RelativeLayout>

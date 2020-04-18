@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="future_titles">
+        <item>Trip to Mexico</item>
+        <item>Trip to New York</item>
+        <item>Trip to Italy</item>
+    </string-array>
+    <string-array name="future_destinations">
+        <item>Mexico</item>
+        <item>New York</item>
+        <item>Italy</item>
+    </string-array>
+    <string-array name="future_departures">
+        <item>Richmond</item>
+        <item>Charlotte</item>
+        <item>Tampa Bay</item>
+    </string-array>
+    <string-array name="future_dates">
+        <item>05/04/13</item>
+        <item>07/20/13</item>
+        <item>10/01/13</item>
+    </string-array>
+    <string-array name="future_times">
+        <item>6:00 am</item>
+        <item>3:55 pm</item>
+        <item>10:15 pm</item>
+    </string-array>
+    <string-array name="past_titles">
+        <item>Spain Adventure</item>
+        <item>Austrailian Outback</item>
+        <item>India</item>
+        <item>South Africa</item>
+    </string-array>
+    <string-array name="past_destinations">
+        <item>Spain</item>
+        <item>Austrailia</item>
+        <item>India</item>
+        <item>South Africa</item>
+    </string-array>
+    <string-array name="past_departures">
+        <item>New York</item>
+        <item>Sacramento</item>
+        <item>Richmond</item>
+        <item>Boston</item>
+    </string-array>
+    <string-array name="past_dates">
+        <item>12/25/12</item>
+        <item>01/04/13</item>
+        <item>02/15/13</item>
+        <item>03/23/13</item>
+    </string-array>
+</resources>

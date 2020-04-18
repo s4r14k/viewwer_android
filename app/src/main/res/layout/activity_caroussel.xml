@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@color/color_white"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp">
+
+<!--    <com.synnapps.carouselview.CarouselView-->
+<!--        android:id="@+id/carouselView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="500dp"-->
+<!--        app:indicatorVisibility="visible"-->
+<!--        app:indicatorOrientation="horizontal" />-->
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webcaroussel"
+        />
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include
+        android:id="@+id/EditProfilToolbar"
+        layout="@layout/toolbar_2">
+    </include>
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_edtit_profil_text_firstName"
+            android:textColor="@color/md_grey_400"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEditTextFirstnameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/color_wetAsphalt">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputEditTextFirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/userLoginColorText"
+                android:textColorHighlight="@color/userLoginColorText"
+                android:textColorHint="@color/userLoginColorText"
+                android:paddingLeft="15dp"
+                android:textSize="13sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_edit_profil_text_lastName"
+            android:textColor="@color/md_grey_400"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEditTextLastnameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/color_wetAsphalt">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputEditTextLastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/userLoginColorText"
+                android:textColorHighlight="@color/userLoginColorText"
+                android:textColorHint="@color/userLoginColorText"
+                android:paddingLeft="15dp"
+                android:textSize="13sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_edit_profil_text_phone"
+            android:textColor="@color/md_grey_400"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/color_wetAsphalt">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputEditTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@color/userLoginColorText"
+                android:textColorHighlight="@color/userLoginColorText"
+                android:textColorHint="@color/userLoginColorText"
+                android:paddingLeft="15dp"
+                android:textSize="13sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/changePasswordProfilButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/rounded_border_cyan_button"
+            android:text="@string/activity_edit_profil_button_ChangePassword"
+            android:textColor="@color/color_cyan"
+            android:textAllCaps="false"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/editProfilMAJButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/rounded_cyan_button"
+                android:text="@string/activity_edit_profil_button_MajProfil"
+                android:textColor="#fff"
+                android:textAllCaps="false"/>
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

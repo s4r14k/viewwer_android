@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativelayout"
+    tools:context=".Fragment.CreateFragment">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0dp"/>
+
+    <ImageView
+        android:id="@+id/patern_image"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center|top"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/placeholder"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/color_white"
+        android:visibility="gone"
+        android:text="@string/instruction_hold_vertically" />
+
+    <TextView
+        android:id="@+id/beginView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/color_white"
+        android:visibility="gone"
+        android:text="@string/begin_capture" />
+
+    <pl.pawelkleczkowski.customgauge.CustomGauge
+        android:id="@+id/gauge2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        app:gaugeEndValue="360"
+        app:gaugePointEndColor="@color/selection_color"
+        app:gaugePointStartColor="@color/selection_color"
+        app:gaugeStartAngle="-90"
+        app:gaugeStartValue="0"
+        app:gaugeStrokeCap="ROUND"
+        app:gaugeStrokeColor="@color/md_grey_700"
+        app:gaugeStrokeWidth="3dp"
+        app:gaugeSweepAngle="360"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="80dp" />
+
+
+</FrameLayout>

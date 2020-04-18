@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.priscilla.viewwer.Fragment.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.priscilla.viewwer.Fragment.FavoriteFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_create"
+        android:name="com.priscilla.viewwer.Fragment.CreateFragment"
+        android:label="@string/title_create"
+        tools:layout="@layout/fragment_create" />
+<!--        <Activity-->
+<!--            android:id="@+id/navigation_create"-->
+<!--            android:name="com.priscilla.viewwer.Activity.CreateActivity"-->
+<!--            android:label="@string/title_create"-->
+<!--            tools:layout="@layout/fragment_create" />-->
+
+    <fragment
+        android:id="@+id/navigation_posts"
+        android:name="com.priscilla.viewwer.Fragment.PostFragment"
+        android:label="@string/title_posts"
+        app:labelVisibilityMode="labeled"
+        tools:layout="@layout/fragment_post" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.priscilla.viewwer.Fragment.ProfilFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profil" />
+</navigation>
